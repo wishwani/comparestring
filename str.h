@@ -1,6 +1,8 @@
 #ifndef STR_H 
 #define STR_H
 
-char cs(char a[], char b[],int len);
+int comparestrings(char a[], char b[]);
+
+
 
 #endif 

@@ -1,19 +1,22 @@
 # include "str.h"
 
-char cs(char a[], char b[],int len){
-
-   int i = 0;
+int comparestrings(char a[], char b[])
+{
+   int c = 0;
  
-  	for(i=0;i<len;i++)
-	{
-		if(a[i]!=b[i])
-		{
-		return -1;
-		}
+   while (a[c] == b[c]) {
+      if (a[c] == '\0' || b[c] == '\0')
+         break;
+      c++;
+   }
+ 
+   if (a[c] == '\0' && b[c] == '\0')
+      return 0;
+   else
+      return -1;
+}
 	
-	}
-	return 0;
 	
 	
    
-}
+
