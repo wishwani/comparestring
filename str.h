@@ -3,6 +3,4 @@
 
 int comparestrings(char a[], char b[]);
 
-
-
 #endif 

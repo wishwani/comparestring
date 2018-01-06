@@ -13,18 +13,14 @@ int main()
    	printf(" second string\n");
    	scanf("%s",b);
 
-	
-	
-	
- 
-   if (comparestrings(a,b)==0)
-      printf(" strings are equal.\n");
-   else
-      printf(" strings are not equal.\n");
+	if (comparestrings(a,b)==0)
+      		printf(" strings are equal.\n");
+   	else
+      		printf(" strings are not equal.\n");
  
    return 0;
 	
-	}
+}
 	
 	
  
